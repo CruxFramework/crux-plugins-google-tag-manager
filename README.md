@@ -1,2 +1,2 @@
 # crux-plugins-google-tag-manager
-Integration with Google Tag Mangare
+Integration with Google Tag Manager
