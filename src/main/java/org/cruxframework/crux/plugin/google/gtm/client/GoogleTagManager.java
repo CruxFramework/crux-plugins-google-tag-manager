@@ -16,6 +16,7 @@
 package org.cruxframework.crux.plugin.google.gtm.client;
 
 import org.cruxframework.crux.core.client.utils.JsUtils;
+import org.cruxframework.crux.core.client.utils.StringUtils;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.JavaScriptObject;
@@ -58,7 +59,7 @@ public class GoogleTagManager implements EntryPoint
 	public static void init(String containerID) 
 	{
 		assert (!initialized):"Google Tag Manager API was already initialized.";
-		assert (containerID != null):"containerID can not be null. Please initialize Google Tag Manager API using a valid containerID.";
+		assert (!StringUtils.isEmpty(containerID)):"containerID can not be null. Please initialize Google Tag Manager API using a valid containerID.";
 		Element firstScript = Document.get().getElementsByTagName("script").getItem(0);
 
 		ScriptElement config = Document.get().createScriptElement(
