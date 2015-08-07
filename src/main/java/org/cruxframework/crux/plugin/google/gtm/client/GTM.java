@@ -23,6 +23,6 @@ import com.google.gwt.i18n.client.Constants;
  */
 public interface GTM extends Constants
 {
-	@DefaultStringValue("key")
+	@DefaultStringValue("")
 	String containerID();
 }
