@@ -28,7 +28,7 @@ First, you need to initialize the GTM on your site. To do this, you must call th
 	@Expose
 	public void onLoad()
 	{
-		GoogleTagManager.init("Your GTM code"); // somethign like GTM-XXXXXX
+		GoogleTagManager.init("Your GTM code"); // something like GTM-XXXXXX
 	}
 ```
 
