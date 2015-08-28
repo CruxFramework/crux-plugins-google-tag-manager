@@ -9,7 +9,7 @@ Add the following maven dependency to your pom.xml file:
 <dependency>
    <groupId>org.cruxframework.plugin</groupId>
    <artifactId>crux-google-tag-manager</artifactId>
-   <version>1.0.0</version>
+   <version>1.0.0-SNAPSHOT</version>
  </dependency>
 ```
 ## Configuration
