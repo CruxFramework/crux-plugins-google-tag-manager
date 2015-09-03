@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cruxframework.plugin</groupId>
 	<artifactId>crux-google-tag-manager</artifactId>
-	<version>1.0.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>GTM</name>
 	<description>Google Tag Manager integration</description>
 
